@@ -1,13 +1,9 @@
-# all common faunctions used in the project
-
-
-
 import os
 import sys
 
 import numpy as np 
 import pandas as pd
-import dill # used to save pickale file
+import dill
 import pickle
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
